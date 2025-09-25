@@ -1,0 +1,23 @@
+# Minimal runtime requirements for Uber Fare Prediction app deployment
+python>=3.9
+
+# Core data & ML
+numpy==1.24.3
+pandas==1.5.3
+scikit-learn==1.2.2
+xgboost==1.7.5
+joblib==1.2.0
+
+# App & visualization
+streamlit==1.22.0
+matplotlib==3.7.1
+plotly==5.15.0
+
+# Optional (only if your app uses geocoding or map tiles)
+# geopy==2.3.0
+# folium==0.13.0
+
+# Notes:
+# - These versions are tested together for a typical Python 3.9+ environment.
+# - If you need GPU support for XGBoost or different versions, adjust accordingly.
+# - To pin exact versions from your environment, run: pip freeze > requirements.txt
